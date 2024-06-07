@@ -3,7 +3,11 @@ package labcodeinspection;
 import java.util.Scanner;
 
 public class EmailApp {
-
+	
+	private EmailApp() {
+		throw new UnsupportedOperationException("This is a utility class and cannot be instantiated");
+	}
+	
 	public static void main(String[] args) {
 		Scanner sc = new Scanner(System.in);
 
@@ -23,4 +27,6 @@ public class EmailApp {
 		email.generateEmail();
 		email.showInfo();
 	}
+	
+
 }
