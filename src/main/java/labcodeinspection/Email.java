@@ -2,7 +2,7 @@ package labcodeinspection;
 
 public class Email {
 
-	private final String m_firstName; 
+	private final String m_firstName;
 	private final String m_lastName;
 	private String password;
 	private String department;
@@ -33,7 +33,6 @@ public class Email {
 		default:
 			break;
 		}
-
 	}
 
 	private String randomPassword(int length) {
